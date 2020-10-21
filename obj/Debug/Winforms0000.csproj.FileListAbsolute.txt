@@ -1,0 +1,10 @@
+C:\Projects\C#\Winforms0000\bin\Debug\Winforms0000.exe.config
+C:\Projects\C#\Winforms0000\bin\Debug\Winforms0000.exe
+C:\Projects\C#\Winforms0000\bin\Debug\Winforms0000.pdb
+C:\Projects\C#\Winforms0000\obj\Debug\Winforms0000.csprojAssemblyReference.cache
+C:\Projects\C#\Winforms0000\obj\Debug\Winforms0000.Form1.resources
+C:\Projects\C#\Winforms0000\obj\Debug\Winforms0000.Properties.Resources.resources
+C:\Projects\C#\Winforms0000\obj\Debug\Winforms0000.csproj.GenerateResource.cache
+C:\Projects\C#\Winforms0000\obj\Debug\Winforms0000.csproj.CoreCompileInputs.cache
+C:\Projects\C#\Winforms0000\obj\Debug\Winforms0000.exe
+C:\Projects\C#\Winforms0000\obj\Debug\Winforms0000.pdb
