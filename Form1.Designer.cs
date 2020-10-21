@@ -56,6 +56,7 @@
 			this.MinInput.Name = "MinInput";
 			this.MinInput.Size = new System.Drawing.Size(202, 22);
 			this.MinInput.TabIndex = 1;
+			this.MinInput.TextChanged += new System.EventHandler(this.MinInput_TextChanged);
 			// 
 			// contextMenuStrip1
 			// 
@@ -72,6 +73,7 @@
 			this.MaxInput.Name = "MaxInput";
 			this.MaxInput.Size = new System.Drawing.Size(202, 22);
 			this.MaxInput.TabIndex = 4;
+			this.MaxInput.TextChanged += new System.EventHandler(this.MaxInput_TextChanged);
 			// 
 			// MaxLabel
 			// 
@@ -111,9 +113,9 @@
 			this.useFractions.AutoSize = true;
 			this.useFractions.Location = new System.Drawing.Point(16, 69);
 			this.useFractions.Name = "useFractions";
-			this.useFractions.Size = new System.Drawing.Size(250, 21);
+			this.useFractions.Size = new System.Drawing.Size(249, 21);
 			this.useFractions.TabIndex = 7;
-			this.useFractions.Text = "Use Fractions (To 1 decimal place)";
+			this.useFractions.Text = "Use Decimals (To 1 decimal place)";
 			this.useFractions.UseVisualStyleBackColor = true;
 			// 
 			// Form1
@@ -126,6 +128,7 @@
 			this.Controls.Add(this.MaxLabel);
 			this.Controls.Add(this.MinInput);
 			this.Controls.Add(this.MinLabel);
+			this.MaximumSize = new System.Drawing.Size(282, 253);
 			this.MinimumSize = new System.Drawing.Size(282, 253);
 			this.Name = "Form1";
 			this.Text = "RNG";

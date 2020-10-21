@@ -54,5 +54,27 @@ namespace Winforms0000
 				return;
 			}
 		}
+
+		/// <summary>
+		/// if someone puts the funny number in the thing then it says "Nice"
+		/// </summary>
+
+		private void FunnyNumberCheck()
+		{
+			if (MinInput.Text == "69" && MaxInput.Text == "420")
+			{
+				MessageBox.Show("Nice");
+			}
+		}
+
+		private void MinInput_TextChanged(object sender, EventArgs e)
+		{
+			FunnyNumberCheck();
+		}
+
+		private void MaxInput_TextChanged(object sender, EventArgs e)
+		{
+			FunnyNumberCheck();
+		}
 	}
 }
