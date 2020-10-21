@@ -76,5 +76,10 @@ namespace Winforms0000
 		{
 			FunnyNumberCheck();
 		}
+
+		private void Form1_TextChanged(object sender, EventArgs e)
+		{
+
+		}
 	}
 }

@@ -132,6 +132,7 @@
 			this.MinimumSize = new System.Drawing.Size(282, 253);
 			this.Name = "Form1";
 			this.Text = "RNG";
+			this.TextChanged += new System.EventHandler(this.Form1_TextChanged);
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
